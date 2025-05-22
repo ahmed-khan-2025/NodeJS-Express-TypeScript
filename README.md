@@ -3,7 +3,7 @@
  A simple Node.js web application built with Express.js, TypeScript, and SQLite that lets you add, view, edit, and delete movies. It includes a basic HTML frontend and RESTful API backend.
  ## 🚀 Features
  Add new movies with title, director, and year\
- View all movies in a responsive table\ 
+ View all movies in a responsive table \
  Edit or delete existing movies\
  Persistent data storage using SQLite\
  Frontend styled with clean, modern CSS\
