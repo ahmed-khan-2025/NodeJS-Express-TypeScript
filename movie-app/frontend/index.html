@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Movie Form</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>Add Movie</h1>
+  <form id="movieForm">
+    <label>Title: <input type="text" name="title" required /></label>
+    <label>Director: <input type="text" name="director" required /></label>
+    <label>Year: <input type="number" name="year" required /></label>
+    <button type="submit">Submit</button>
+  </form>
+  <p id="message"></p>
+
+  <h2>All Movies</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Director</th>
+        <th>Year</th>
+        <th class="actions">Actions</th>
+      </tr>
+    </thead>
+    <tbody id="movieTableBody"></tbody>
+  </table>
+  <!-- Include script at the end of the body -->
+  <script src="movie-app.js" defer></script>
+</body>
+</html>
