@@ -19,6 +19,6 @@
  npm run dev
  ## 🌐 Usage
  Open your browser and go to http://localhost:3000 \
- Use the form to add new movies\ 
+ Use the form to add new movies\  
  View them in the table below\
  Use ✏️ to edit and 🗑️ to delete
